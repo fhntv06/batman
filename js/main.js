@@ -9,6 +9,5 @@ $(document).ready(function () {
         $(".visible").toggleClass("visible"); 
         $(activeContent).toggleClass("visible");
         $("tabs-item-active").toggleClass("tabs-item-active");
-        $(this).toggleClass("tabs-item-active");
     })
 });

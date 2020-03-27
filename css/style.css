@@ -277,7 +277,12 @@ body{
 }
 
 .tabs-content{
+  display: none;
   margin-right:70px;
+}
+
+.visible{
+  display:block; 
 }
 
 .tabs-item{
@@ -428,14 +433,14 @@ h4{
     display:none;
   }
 
-  .visible{
-    display:block;
+  .tabs-content{
+    margin-right:0;
+    text-align: justify;
   }
 
   .tabs-content{
     display:none;
-    margin-right:0;
-    text-align: justify;
+ 
   }
 
   .tabs-item{
